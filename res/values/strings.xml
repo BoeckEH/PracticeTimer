@@ -1,0 +1,13 @@
+<resources>
+
+
+
+    <string name="app_name">PractiseTimer</string>
+    <string name="title_section3">Analog Timer</string>
+    <string name="title_section2">Digital Timer</string>
+    <string name="title_section1">Choose your time</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Practise Timer</string>
+
+</resources>
