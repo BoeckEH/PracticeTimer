@@ -2,12 +2,12 @@
 
 
 
-    <string name="app_name">PractiseTimer</string>
-    <string name="title_section3">Analog Timer</string>
-    <string name="title_section2">Digital Timer</string>
-    <string name="title_section1">Choose your time</string>
+    <string name="app_name">Practice Timer</string>
+    <string name="title_section3">Go!</string>
+    <string name="title_section2">Audio Choices</string>
+    <string name="title_section1">Timer Choices</string>
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
-    <string name="title_activity_main">Practise Timer</string>
+    <string name="title_activity_main">Practice Timer</string>
 
 </resources>
