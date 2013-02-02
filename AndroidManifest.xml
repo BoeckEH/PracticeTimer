@@ -6,6 +6,7 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
 
     <application
         android:icon="@drawable/ic_launcher"
@@ -22,6 +23,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.boeckeh.practicetimer" />
         </activity>
+        
     </application>
-
-</manifest>
+    </manifest>

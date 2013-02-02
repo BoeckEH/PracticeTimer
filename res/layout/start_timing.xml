@@ -4,11 +4,47 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_MaxLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Go Timer!"
         android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_Timing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="20"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="75dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="45"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:contentDescription="nothing much"
+        android:src="@android:drawable/gallery_thumb" />
 
 </LinearLayout>
